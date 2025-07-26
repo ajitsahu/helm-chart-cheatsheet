@@ -88,7 +88,11 @@ helm rollback mynginx 1
 ```
 
 ---
-
+## 🚀 dry-run & debug before installing
+``` bash
+helm install nginx --dry-run --debug ./nginx-repo
+```
+---
 ## 📘 Best Practices
 
 - Always run `helm diff upgrade` before applying changes
